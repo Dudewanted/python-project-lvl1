@@ -1,11 +1,9 @@
-name: make-master
+name: github-linter
 
 on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '20 13 * * *'
 
 jobs:
   build:
@@ -15,6 +13,4 @@ jobs:
         with:
           fetch-depth: 1
       - name: Run Makefile
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
         run: make lint

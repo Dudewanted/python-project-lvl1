@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.6", "3.7", "3.8", "3.9"]
+        python-version: ["3.8", "3.9"]
 
     steps:
       - uses: actions/checkout@v3
@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
+          make instal
       - name: Lint with flake8
         run: |
           make lint

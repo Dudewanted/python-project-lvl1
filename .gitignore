@@ -1,2 +1,4 @@
 **/__pycache__
 .venv/
+# Ignore the build directory
+/dist

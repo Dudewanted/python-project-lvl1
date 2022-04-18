@@ -1,4 +1,8 @@
+# remove files from git cache
 **/__pycache__
+
+# Environments
 .venv/
+
 # Ignore the build directory
 /dist

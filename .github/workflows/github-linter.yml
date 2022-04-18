@@ -1,17 +1,20 @@
-name: github-linter
-on: [push]
+name: make-master
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '20 13 * * *'
+
 jobs:
-  check-bats-version:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v1
+      - uses: actions/checkout@master
         with:
-          python-version: 3.8
-      - name: Install Python dependencies
-        run: pip install flake8
-      - name: Run linters
+          fetch-depth: 1
+      - name: Run Makefile
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: make lint

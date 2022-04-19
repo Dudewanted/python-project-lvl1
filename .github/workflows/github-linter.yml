@@ -6,9 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Install dependencies
-        run: |
+      - name: Install dependencies and run linter
+        run:
           pip install poetry
-      - name: Lint with flake8
-        run: |
           make lint

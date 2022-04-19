@@ -1,9 +1,9 @@
 name: Linter test
 
-on: [push]
-
+on: push
 jobs:
-   
+  build:
+    runs-on: ubuntu-latest
     steps:
 
       - name: Install dependencies

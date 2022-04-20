@@ -6,7 +6,6 @@ from random import randint
 
 
 
-
 def parity_check():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')

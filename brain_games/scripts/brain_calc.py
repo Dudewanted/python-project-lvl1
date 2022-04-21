@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games.check import parity_check
+from brain_games.games.calculator import game_calc
 
 
 def main():
 
-    parity_check()
+    game_calc()
 
 
 if __name__ == '__main__':

@@ -21,7 +21,7 @@ def game_calc():
         print('Question: {} {} {}'.format(num1, operation, num2))
         maths = eval(str(num1) + operation + str(num2))
         answer = prompt.string('Your answer: ')
-        if maths == int(answer):
+        if str(maths) == answer:
             print('Correct!')
             counter += 1
         else:

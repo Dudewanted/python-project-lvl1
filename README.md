@@ -4,7 +4,7 @@
 [![Linter test](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml/badge.svg?branch=main&event=push)](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml)
 
 #### Game: "Parity Check". An example of installing a package, starting a game, winning and losing a player:
-https://asciinema.org/a/r2PgMbemJhbRPhJa3JArvUavL
+<script id="asciicast-mALlpBmKXfHK3Q3LeNZmUAzgq" src="https://asciinema.org/a/mALlpBmKXfHK3Q3LeNZmUAzgq.js" async></script>
 
 #### Game: "Calculator". An example of installing a package, starting a game, winning and losing a player:
-https://asciinema.org/a/mALlpBmKXfHK3Q3LeNZmUAzgq
+<script id="asciicast-488790" src="https://asciinema.org/a/488790.js" async></script>

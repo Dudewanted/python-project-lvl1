@@ -1,11 +1,12 @@
 #!/usr/bin/env python
+from brain_games import engine
 
-from brain_games.games.check import parity_check
+from brain_games.games import check
 
 
 def main():
 
-    parity_check()
+    engine.engine_game(check)
 
 
 if __name__ == '__main__':

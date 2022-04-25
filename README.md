@@ -8,3 +8,6 @@
 
 #### Game: "Calculator". An example of installing a package, starting a game, winning and losing a player:
 <a href="https://asciinema.org/a/mALlpBmKXfHK3Q3LeNZmUAzgq" target="_blank"><img src="https://asciinema.org/a/mALlpBmKXfHK3Q3LeNZmUAzgq.svg" /></a>
+
+#### Game: "GCD". An example of installing a package, starting a game, winning and losing a player:
+<a href="https://asciinema.org/a/kOqwSQrzvUtO3nqxXLjfAb4yO" target="_blank"><img src="https://asciinema.org/a/kOqwSQrzvUtO3nqxXLjfAb4yO.svg" /></a>

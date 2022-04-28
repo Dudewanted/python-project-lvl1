@@ -14,7 +14,7 @@ def game_data():
         num += step
         mas.append(num)
     correct_answer = random.choice(mas)
-    convertList = ' '.join(map(str,mas))
+    convertList = ' '.join(map(str, mas))
     hidden_mas = convertList.replace(str(correct_answer), '..')
     question = 'Question: {}'.format(hidden_mas)
     return question, correct_answer

@@ -11,3 +11,6 @@
 
 #### Game: "GCD". An example of starting a game, winning and losing a player:
 <a href="https://asciinema.org/a/kOqwSQrzvUtO3nqxXLjfAb4yO" target="_blank"><img src="https://asciinema.org/a/kOqwSQrzvUtO3nqxXLjfAb4yO.svg" /></a>
+
+#### Game: "Arithmetic progression". An example of starting a game, winning and losing a player:
+<a href="https://asciinema.org/a/488790" target="_blank"><img src="https://asciinema.org/a/488790.svg" /></a>

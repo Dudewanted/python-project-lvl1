@@ -9,12 +9,16 @@ def game_data():
     num = random.randint(1, 100)
     step = random.randint(1, 10)
     length = random.randint(5, 10)
+    index = random.randint(0, length - 1)
     mas = []
+    correct_answer = 0
     for i in range(length):
         num += step
-        mas.append(num)
-    correct_answer = random.choice(mas)
+        if i != index:
+           mas.append(num)
+        else:
+           mas.append('..')
+           correct_answer = num
     convertList = ' '.join(map(str, mas))
-    hidden_mas = convertList.replace(str(correct_answer), '..')
-    question = 'Question: {}'.format(hidden_mas)
+    question = 'Question: {}'.format(convertList)
     return question, correct_answer

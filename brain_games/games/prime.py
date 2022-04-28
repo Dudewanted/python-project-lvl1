@@ -4,6 +4,7 @@ from random import randint
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def game_data():
     number = randint(2, 100)
     question = 'Question: {}'.format(number)
@@ -12,6 +13,7 @@ def game_data():
     else:
         correct_answer = 'yes'
     return question, correct_answer
+
 
 def is_prime(number):
     count = 0

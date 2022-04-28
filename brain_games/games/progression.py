@@ -15,10 +15,10 @@ def game_data():
     for i in range(length):
         num += step
         if i != index:
-           mas.append(num)
+            mas.append(num)
         else:
-           mas.append('..')
-           correct_answer = num
+            mas.append('..')
+            correct_answer = num
     convertList = ' '.join(map(str, mas))
     question = 'Question: {}'.format(convertList)
     return question, correct_answer

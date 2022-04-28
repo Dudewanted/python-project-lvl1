@@ -14,3 +14,6 @@
 
 #### Game: "Arithmetic progression". An example of starting a game, winning and losing a player:
 <a href="https://asciinema.org/a/488790" target="_blank"><img src="https://asciinema.org/a/488790.svg" /></a>
+
+#### Game: "Prime number". An example of starting a game, winning and losing a player:
+<a href="https://asciinema.org/a/UUz66sx5S3YG7IwuWQL68rvga" target="_blank"><img src="https://asciinema.org/a/UUz66sx5S3YG7IwuWQL68rvga.svg" /></a>

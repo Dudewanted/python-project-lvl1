@@ -15,6 +15,7 @@ def get_game_data():
         correct_answer = 'no'
     return question, correct_answer
 
+
 def is_parity_checker(number):
     if number % 2 == 0:
         return True

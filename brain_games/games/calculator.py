@@ -16,6 +16,7 @@ def get_game_data():
     question = 'Question: {0} {1} {2}'.format(num1, operation, num2)
     return question, correct_answer
 
+
 def is_calculator(num1, operation, num2):
     if operation == '+':
         result = num1 + num2
@@ -24,6 +25,3 @@ def is_calculator(num1, operation, num2):
     elif operation == '*':
         result = num1 * num2
     return result
-
-
-

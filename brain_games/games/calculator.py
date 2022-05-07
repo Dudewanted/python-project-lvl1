@@ -9,19 +9,19 @@ ops = ['+', '-', '*']
 
 
 def get_game_data():
-    num1 = randint(0, 100)
-    num2 = randint(0, 100)
+    number1 = randint(0, 100)
+    number2 = randint(0, 100)
     operation = random.choice(ops)
-    correct_answer = is_calculator(num1, operation, num2)
-    question = 'Question: {0} {1} {2}'.format(num1, operation, num2)
+    correct_answer = calculate_result(number1, operation, number2)
+    question = 'Question: {0} {1} {2}'.format(number1, operation, number2)
     return question, correct_answer
 
 
-def is_calculator(num1, operation, num2):
+def calculate_result(number1, operation, number2):
     if operation == '+':
-        result = num1 + num2
+        result = number1 + number2
     elif operation == '-':
-        result = num1 - num2
+        result = number1 - number2
     elif operation == '*':
-        result = num1 * num2
+        result = number1 * number2
     return result

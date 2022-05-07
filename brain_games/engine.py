@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 import prompt
 
+ROUNDS = 3
+
 
 def engine_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     print(game.TASK)
-    for i in range(game.ROUNDS):
+    for i in range(ROUNDS):
         question, correct_answer = game.get_game_data()
         print(question)
         answer = prompt.string('Your answer: ')

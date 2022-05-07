@@ -1,3 +1,8 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Dudewanted/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Dudewanted/python-project-lvl1/actions)
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Linter test](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml/badge.svg?branch=main&event=push)](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml)
+
 ## Project Description
 
 ### Project #1: Mind Games
@@ -31,15 +36,6 @@ brain-prime
 ```
 python3 -m pip install --user
 ```
-
-
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Dudewanted/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Dudewanted/python-project-lvl1/actions)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-[![Linter test](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml/badge.svg?branch=main&event=push)](https://github.com/Dudewanted/python-project-lvl1/actions/workflows/github-linter.yml)
-
-
 
 #### Game: "Parity Check". An example of starting a game, winning and losing a player:
 <a href="https://asciinema.org/a/488790" target="_blank"><img src="https://asciinema.org/a/488790.svg" /></a>

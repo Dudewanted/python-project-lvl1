@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import prompt
 
-ROUNDS = 3
+ROUNDS_COUNT = 3
 
 
 def engine_game(game):
@@ -9,7 +9,7 @@ def engine_game(game):
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     print(game.TASK)
-    for i in range(ROUNDS):
+    for i in range(ROUNDS_COUNT):
         question, correct_answer = game.get_game_data()
         print(question)
         answer = prompt.string('Your answer: ')

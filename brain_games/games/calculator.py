@@ -3,7 +3,6 @@ import random
 
 from random import randint
 
-ROUNDS = 3
 TASK = 'What is the result of the expression?'
 ops = ['+', '-', '*']
 

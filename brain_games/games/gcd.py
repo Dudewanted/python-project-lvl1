@@ -6,17 +6,17 @@ TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def get_game_data():
-    number1 = randint(0, 100)
-    number2 = randint(0, 100)
-    question = '{0} {1}'.format(number1, number2)
-    correct_answer = get_gcd(number1, number2)
+    first_number = randint(0, 100)
+    second_number = randint(0, 100)
+    question = '{0} {1}'.format(first_number, second_number)
+    correct_answer = get_gcd(first_number, second_number)
     return question, correct_answer
 
 
-def get_gcd(number1, number2):
-    while number1 != 0 and number2 != 0:
-        if number1 >= number2:
-            number1 %= number2
+def get_gcd(first_number, second_number):
+    while first_number != 0 and second_number != 0:
+        if first_number >= second_number:
+            first_number %= second_number
         else:
-            number2 %= number1
-    return number1 or number2
+            second_number %= first_number
+    return first_number or second_number

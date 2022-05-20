@@ -7,7 +7,7 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def get_game_data():
     number = randint(0, 100)
-    question = 'Question: {}'.format(number)
+    question = '{}'.format(number)
     if is_even(number):
         correct_answer = 'yes'
     else:
@@ -18,4 +18,3 @@ def get_game_data():
 def is_even(number):
     if number % 2 == 0:
         return True
-    return False

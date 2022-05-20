@@ -8,7 +8,7 @@ TASK = 'Find the greatest common divisor of given numbers.'
 def get_game_data():
     number1 = randint(0, 100)
     number2 = randint(0, 100)
-    question = 'Question: {0} {1}'.format(number1, number2)
+    question = '{0} {1}'.format(number1, number2)
     correct_answer = get_gcd(number1, number2)
     return question, correct_answer
 

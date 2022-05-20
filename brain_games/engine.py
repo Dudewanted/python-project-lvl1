@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import prompt
 
 ROUNDS_COUNT = 3
@@ -11,7 +10,7 @@ def engine_game(game):
     print(game.TASK)
     for i in range(ROUNDS_COUNT):
         question, correct_answer = game.get_game_data()
-        print(question)
+        print('Question: ', question)
         answer = prompt.string('Your answer: ')
         if str(correct_answer) == answer.lower():
             print('Correct!')

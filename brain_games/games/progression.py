@@ -19,5 +19,5 @@ def get_game_data():
             progression.append('..')
             correct_answer = number
     convert_list = ' '.join(map(str, progression))
-    question = 'Question: {}'.format(convert_list)
+    question = '{}'.format(convert_list)
     return question, correct_answer

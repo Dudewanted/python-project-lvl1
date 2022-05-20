@@ -8,19 +8,19 @@ ops = ['+', '-', '*']
 
 
 def get_game_data():
-    number1 = randint(0, 100)
-    number2 = randint(0, 100)
+    first_number = randint(0, 100)
+    second_number = randint(0, 100)
     operation = random.choice(ops)
-    correct_answer = calculate_result(number1, operation, number2)
-    question = '{0} {1} {2}'.format(number1, operation, number2)
+    correct_answer = calculate_result(first_number, operation, second_number)
+    question = '{0} {1} {2}'.format(first_number, operation, second_number)
     return question, correct_answer
 
 
-def calculate_result(number1, operation, number2):
+def calculate_result(first_number, operation, second_number):
     if operation == '+':
-        result = number1 + number2
+        result = first_number + second_number
     elif operation == '-':
-        result = number1 - number2
+        result = first_number - second_number
     elif operation == '*':
-        result = number1 * number2
+        result = first_number * second_number
     return result
